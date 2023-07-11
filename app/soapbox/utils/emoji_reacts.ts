@@ -15,6 +15,10 @@ export const ALLOWED_EMOJI = ImmutableList([
   '😮',
   '😢',
   '😩',
+  '🫠',
+  '🤯',
+  '🤔',
+  '🥳',
 ]);
 
 type Account = ImmutableMap<string, any>;
