@@ -536,8 +536,8 @@ const StatusActionBar: React.FC<IStatusActionBar> = ({
   const meEmojiReact = getReactForStatus(status, allowedEmoji) as keyof typeof reactMessages | undefined;
 
   const reactMessages = {
-    '👍': messages.reactionLike,
     '❤️': messages.reactionHeart,
+    '👍': messages.reactionLike,
     '😆': messages.reactionLaughing,
     '😮': messages.reactionOpenMouth,
     '😢': messages.reactionCry,

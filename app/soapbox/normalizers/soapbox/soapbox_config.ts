@@ -105,8 +105,8 @@ export const SoapboxConfigRecord = ImmutableRecord({
     homeFooter: ImmutableList<FooterItem>(),
   }),
   allowedEmoji: ImmutableList<string>([
-    '👍',
     '❤️',
+    '👍',
     '😆',
     '😮',
     '😢',

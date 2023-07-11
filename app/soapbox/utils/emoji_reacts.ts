@@ -9,8 +9,8 @@ import type { Me } from 'soapbox/types/soapbox';
 // https://emojipedia.org/facebook
 // I've customized them.
 export const ALLOWED_EMOJI = ImmutableList([
-  '👍',
   '❤️',
+  '👍',
   '😆',
   '😮',
   '😢',
